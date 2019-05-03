@@ -1,0 +1,3 @@
+# Nutshell
+
+This is just a shell of what nutshell will be...a personal website of me...
