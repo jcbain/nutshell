@@ -26,3 +26,12 @@ body{
 	height: 35px;
 	margin-bottom: 10px;
 }
+
+/* sidebar responsiveness*/
+@media (max-width: 800px) {
+
+      .left-menu {
+            background-color: yellow;
+       }
+
+}
