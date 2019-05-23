@@ -45,13 +45,15 @@ body{
 	   }
 
 	   .menu {
+	   	    min-width: 696px;
 			list-style-type: none;
 			padding-top: 0px;
-			left: 40px;
+			left: 20px;
 	   }
 
 	   .menu-item  {
 			display: inline;
+			margin-right: 40px;
 	   }
 
 }
