@@ -1,39 +1,50 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+
 body{
 	margin: 0 0 0 0;
 }
 
-/* LEFT SIDE BAR NAVIGATION */
-
- .left-menu {
-    font-family: sans-serif;
-    background-color: #231f20;
-    padding: 0px;
-    width: 40px;
-    height: 100%;
-    z-index: 1000;
-    position: fixed;
-
-}
 .menu{
-    list-style-type: none;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: -80%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+	background-color: #252323;
+	height: 100%;
+	left: 0;
+	margin: 0px;
+	overflow-x: hidden;
+	position: fixed;
+	top: 0;
+	width: 5%;
+	z-index: 1;
 }
 
-.menu-icon {
-	height: 25px;
-	margin-bottom: 15px;
+.top-part{
+	background-color: #f9ccec;
+	height: 300px;
+	margin-left: 5%;
+	padding-top: 70px;
+	width: 95%;
+	
+}
+
+.center{
+	text-align: center;
+}
+
+.main-text{
+	font-family: Pacifico;
+	font-size: 50px;
+}
+
+.secondary-text{
+	font-family: "Josefin Sans";
+	font-size: 20px;
 }
 
 
 /* RESPONSIVENESS */
-
+/*
 @media (max-width: 800px) {
-      /* sidebar responsiveness*/
+
       .left-menu {
             width: 100%;
             height: 7%;
@@ -42,7 +53,7 @@ body{
        }
 
 	  .table {
-			display: table;   /* Allow the centering to work */
+			display: table;  
 			margin: 0 auto;
 	   }
 
@@ -59,4 +70,4 @@ body{
 			margin-right: 40px;
 	   }
 
-}
+} */
