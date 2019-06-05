@@ -49,20 +49,22 @@ body{
 
 .secondary-text{
 	font-family: "Josefin Sans";
-	font-size: 25px;
+	font-size: 27px;
 	margin: 0px;
 	text-shadow: -.4px .4px 0 #000,
 				  .4px .4px 0 #000,
-				  .4px -.4px 0 #000;
+				  .4px -.4px 0 #000,
+				  -.4px -.4px 0 #000;
 }
 
 .logo{
 	background-color: #ffffda;
 	border-radius: 100%;
-	border: solid 2px black;
+	border: solid 2px #f9ccec;
 	display: inline-block;
-	height: 60px;
-	width: 60px;
+	height: 100px;
+	margin-top: 90px;
+	width: 100px;
 
 }
 
