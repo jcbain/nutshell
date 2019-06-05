@@ -1,10 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
 
+/* GENERAL */
 body{
 	margin: 0 0 0 0;
 }
 
+.cream{
+	color: #ffffda;
+}
+
+/* MENU */
 .menu{
 	background-color: #252323;
 	height: 100%;
@@ -17,6 +23,7 @@ body{
 	z-index: 1;
 }
 
+/* TOP SECTION */
 .top-part{
 	background-color: #f9ccec;
 	height: 300px;
@@ -32,13 +39,34 @@ body{
 
 .main-text{
 	font-family: Pacifico;
-	font-size: 50px;
+	font-size: 70px;
+	font-weight: 1;
+	margin: 0px;
+	text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				  1px -1px 0 #000;
 }
 
 .secondary-text{
 	font-family: "Josefin Sans";
-	font-size: 20px;
+	font-size: 25px;
+	margin: 0px;
+	text-shadow: -.4px .4px 0 #000,
+				  .4px .4px 0 #000,
+				  .4px -.4px 0 #000;
 }
+
+.logo{
+	background-color: #ffffda;
+	border-radius: 100%;
+	border: solid 2px black;
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+
+}
+
+
 
 
 /* RESPONSIVENESS */
