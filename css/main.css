@@ -95,6 +95,12 @@ body{
 	background-color: #42e1b0;
 }
 
+.overview.second{
+	background-image: url(media/profile_image.JPG)
+	background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container
+}
 
 
 
