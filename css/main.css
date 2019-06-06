@@ -6,8 +6,17 @@ body{
 	margin: 0 0 0 0;
 }
 
+.default-font{
+    font-family: "Josefin Sans";
+    font-size: 22px;
+}
+
 .cream{
 	color: #ffffda;
+}
+
+.offwhite{
+	color: #fdfaf0;
 }
 
 /* MENU */
@@ -48,7 +57,6 @@ body{
 }
 
 .secondary-text{
-	font-family: "Josefin Sans";
 	font-size: 27px;
 	margin: 0px;
 	text-shadow: -.4px .4px 0 #000,
@@ -66,6 +74,25 @@ body{
 	margin-top: 90px;
 	width: 100px;
 
+}
+
+/* OVERVIEW SECTION */
+.overview-part{
+	margin: 0 0 0 5%;
+	height: 300px;
+	width: 95%;
+}
+
+.overview{
+	float: left;
+	padding: 20px;
+	display: inline;
+	width: 400px;
+	height: 100%;
+}
+
+.overview.first{
+	background-color: #42e1b0;
 }
 
 
